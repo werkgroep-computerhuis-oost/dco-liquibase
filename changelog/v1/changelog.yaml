@@ -10,6 +10,9 @@ databaseChangeLog:
       file: schema/activities.sql
   - include:
       relativeToChangelogFile: true
+      file: schema/clients.sql
+  - include:
+      relativeToChangelogFile: true
       file: schema/individuals.sql
   - include:
       relativeToChangelogFile: true
