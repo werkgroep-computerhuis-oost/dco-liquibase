@@ -4,9 +4,9 @@ CREATE TABLE individuals
 (
     id                    BIGINT                 NOT NULL AUTO_INCREMENT,
     initials              VARCHAR(255),
-    first_name            VARCHAR(255)           NOT NULL,
+    first_name VARCHAR(255) NOT NULL,
     infix                 VARCHAR(255),
-    last_name             VARCHAR(255)           NOT NULL,
+    last_name  VARCHAR(255) NOT NULL,
     date_of_birth         DATE,
 
     email                 VARCHAR(255),

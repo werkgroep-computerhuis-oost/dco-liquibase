@@ -7,7 +7,7 @@ CREATE TABLE tickets
     ticket_type  ENUM ('REPAIR', 'ISSUE') NOT NULL,
     equipment_id BIGINT,
 
-    subject     varchar(255)           NOT NULL,
+    subject     VARCHAR(255),
     description TEXT,
     details     JSON,
     registered  DATETIME DEFAULT NOW() NOT NULL,

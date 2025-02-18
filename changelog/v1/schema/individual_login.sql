@@ -2,8 +2,8 @@
 -- changeset ronlievens:schema-0
 CREATE TABLE individual_login
 (
-    username     VARCHAR(50)            NOT NULL,
-    registered   DATETIME DEFAULT NOW() NOT NULL,
+    username   VARCHAR(50)            NOT NULL,
+    registered DATETIME DEFAULT NOW() NOT NULL,
     user_type    ENUM ('SYSTEM', 'CANDIDATE', 'VOLUNTEER') NOT NULL,
     password     VARCHAR(2028),
     volunteer_id BIGINT,
