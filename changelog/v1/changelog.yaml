@@ -16,10 +16,7 @@ databaseChangeLog:
       file: schema/individuals.sql
   - include:
       relativeToChangelogFile: true
-      file: schema/individual_login.sql
-  - include:
-      relativeToChangelogFile: true
-      file: schema/individual_authorities.sql
+      file: schema/volunteers.sql
   - include:
       relativeToChangelogFile: true
       file: schema/equipment.sql
@@ -39,15 +36,6 @@ databaseChangeLog:
   # --------------------------------------------------------------------------------------------------------------------
   #  VIEWS
   # --------------------------------------------------------------------------------------------------------------------
-  - include:
-      relativeToChangelogFile: true
-      file: view/volunteers_counter.sql
-  - include:
-      relativeToChangelogFile: true
-      file: view/volunteers_education.sql
-  - include:
-      relativeToChangelogFile: true
-      file: view/volunteers_workshop.sql
   - include:
       relativeToChangelogFile: true
       file: view/ticket_overview.sql
